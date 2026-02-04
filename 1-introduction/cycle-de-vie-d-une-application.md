@@ -1,4 +1,4 @@
-[1-Introduction](./introduction.md)
+[top](/README.md) / [1-Introduction](./introduction.md) --- suivant [développement d'une application](./developpement-d-une-application.md)
 
 # Cycle de vie d'une application
 
@@ -18,7 +18,7 @@ Nous pouvons modéliser ce cycle comme suit :
 
 Le point de départ est l'**idée**. Une ou plusieurs personnes ont une idée. Souvent ils ont l'idée qu'ils ont besoin d'une application pour les aider dans leur métier. Ou ils ont l'idée qu'une ancienne application ne répond plus aux besoins actuels et qu'il faut la remplacer. Ou remplacer une partie. Ou un mixte des deux. L'idée suit son cours et si elle semble bonne, il est possible qu'on décide d'investir de l'argent et du temps à cette idée.
 
-Il faudra alors évaluer la **faisabilité** de l'idée. Il s'agit essentiellement de calculer le budget nécessaire au développement de l'application et vérifier sa valeur ajoutée. L'outil idéal est le ROI (Return Of Investment). Le principe est le suivant : si le retour de l'invetissement est positif, cela vaut la peine de passer à l'étape suivante.
+Il faudra alors évaluer la **faisabilité** de l'idée. Il s'agit essentiellement de calculer le budget nécessaire au développement de l'application et vérifier sa valeur ajoutée. L'outil idéal est le ROI (Return On Investment). Le principe est le suivant : si le retour de l'investissement est positif, cela vaut la peine de passer à l'étape suivante.
 
 Nous pouvons maintenant **préparer** le développement de l'application. Un chef de projet est généralement nommé et il sera en charge de planifier le développement. Il devra aussi définir l'équipe qui développera l'application. Le coût du développement de l'application sera recalculé et le ROI revu.
 
@@ -65,7 +65,7 @@ Les **sponsors** sont ceux qui paient et donnent la vision. Cela diffère d'une 
 - un **représentant du métier**, cela peut-être le directeur du département qui bénéficiera de l'application, par exemple le directeur des ressources humaines pour une application RH
 - un **représentant financier**, cela peut-être le CFO (Chief Financial Officier, le directeur financier)
 - un **représentant de l'IT**, cela peut-être le CIO (Chief Informatic Officier, le directeur de l'informatique en langage ancien)
-Les sponsors ont pour responsabiliter de conduire le projet. Ce sont eux qui donne la vision, décide du budget et décide de continuer ou d'arrêter le projet.
+Les sponsors ont pour responsabilités de conduire le projet. Ce sont eux qui donne la vision, décide du budget et décide de continuer ou d'arrêter le projet.
 
 L'**expert métier** est un ... expert du métier concerné par l'application. Il sera l'interlocuteur privilégier pour comprendre les processus, les concepts du métier et les fonctionnalités de l'application. Notons que parfois, il est nécessaire de travailler avec plusieurs experts métiers, chacun spécialisé dans un métier différent ou une partie différente du métier.
 
@@ -74,7 +74,7 @@ L'**expert évaluation des coûts** aidera à évaluer les coûts, en particulie
 Le **chef de projet** est responsable de la conduite au jour le jour du projet.
 
 Les **analystes** sont responsable des ... analyses. Nous verrons cela en plus de détail dans le cours.
-
+ss
 Les **développeurs** développent l'application. Ils codent et parfois configure.
 
 Les **testeurs** testent l'application. Souvent les analystes font aussi les tests.
@@ -87,7 +87,7 @@ Les **ingénieurs système** gèrent les infrastructures, c'est-à-dire les serv
 
 Les **ingénieurs DB** gèrent les ... DB. Parfois les développeurs font ce travail.
 
-Les **ingénieurs devops** gèrent les déploiements automatisés des applications. Les déploiements ne sont pas toujours le cas mais c'est à la mode. Parfois les développeurs font ce travail.
+Les **ingénieurs devops** gèrent les déploiements automatisés des applications. Parfois les développeurs font ce travail. Notons que beaucoup d'applications sont encore déployées manuellement.
 
 Le **SCRUM master** aide l'équipe à appliquer la méthode SCRUM. Il travaille sur plusieurs projets à la fois. C'est une fonction à la mode mais de plus en plus ce rôle est pris un des membres de l'équipe.
 

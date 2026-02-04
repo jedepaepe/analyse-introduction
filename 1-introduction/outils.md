@@ -1,0 +1,28 @@
+[top](/README.md) / [1-Introduction](./introduction.md)
+
+# Les outils
+
+Les analystes utilisent différents outils.
+
+Ils utilisent des outils de bureautique :
+- word (ou libreoffice) pour créer des documents, souvent le dossier d'analyse est réalisé sous word
+- excel (ou libreoffice) pour analyser des données
+- powerpoint (ou ...) pour réaliser des présentations
+
+Ils utilisent des outils permettant de réaliser des diagrammes. Citons :
+- [enterprise architect](https://sparxsystems.fr/products/ea/)
+- [visual paradigm](https://www.visual-paradigm.com/) sera utilisé au cours. Il a une version community (non payante) pour un usage non lucratif. Il est très bon pour les diagrammes ERD, d'activités, de use cases et de classes
+- [lucichard](https://www.lucidchart.com/pages/fr)
+- [visio](https://www.microsoft.com/fr-be/microsoft-365/visio) est un mauvais outil mais il est utilisé dans beaucoup d'entreprises car c'est un produit Microsoft
+- [plantuml](https://plantuml.com/) est un outil utilisé par les développeurs car il est basé sur du code
+- [draw.io](https://www.drawio.com/) est un outil pratique, facile à utiliser. Il sera utilisé au cours
+...
+
+Les bons analystes utilisent des outils spécialisés pour réaliser les sketchs, les wireframes et les maquettes :
+- [Figma](https://www.figma.com/fr-fr/) domine le marché.
+- [Penpot](https://penpot.app/) est un challenger open-source.
+- [Sketch](https://www.sketch.com/) est outil pour mac.
+...
+
+Notons que l'IA impacte le métier d'analyste. Elle permet de générer quantité de documentation et diagrammes. Elle peut aussi aider dans la collecte des informations.
+

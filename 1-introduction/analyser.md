@@ -7,6 +7,8 @@ Nous essayons d'expliquer ce qu'est qu'analyser dans le contexte du développeme
 - [Travail de l'analyste](#travail-de-lanalyste)
 - [Collecte d'information](#collecte-dinformation)
 - [Produits de l'analyse](#produits-de-lanalyse)
+- [Les outils](#les-outils)
+- [Le développeur et l'analyse](#le-développeur-et-lanalyse)
 
 ## Travail de l'analyste
 Le travail de l'analyste consiste à analyser.
@@ -47,5 +49,13 @@ L'analyste produit typiquement un [dossier d'analyse](./dossier-d-analyse.md).
 En maintenance, il maintiendra le dossier d'analyse.
 
 Si les développements suivent une méthode agile, l'analyste écrira les user stories.
+
+## Les outils
+Avant IA
+
+Avec IA
+
+## Le développeur et l'analyse
+...
 
 
