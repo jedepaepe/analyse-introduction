@@ -10,11 +10,14 @@ Ils utilisent des outils de bureautique :
 - powerpoint (ou ...) pour réaliser des présentations
 
 Ils utilisent des outils permettant de réaliser des diagrammes. Citons :
+- [Miro](https://miro.com/fr/) utilisé pour l'analyse collaborative, j'espère que nous trouverons le temps de l'apprendre
 - [enterprise architect](https://sparxsystems.fr/products/ea/)
 - [visual paradigm](https://www.visual-paradigm.com/) sera utilisé au cours. Il a une version community (non payante) pour un usage non lucratif. Il est très bon pour les diagrammes ERD, d'activités, de use cases et de classes
+- [modelio](https://www.modelio.org/index.htm) est un outil open source
 - [lucichard](https://www.lucidchart.com/pages/fr)
 - [visio](https://www.microsoft.com/fr-be/microsoft-365/visio) est un mauvais outil mais il est utilisé dans beaucoup d'entreprises car c'est un produit Microsoft
 - [plantuml](https://plantuml.com/) est un outil utilisé par les développeurs car il est basé sur du code
+- [mermaid](https://mermaid.js.org/) aimé par les développeurs car il s'intègre dans du markdown (ce cours est écrit en markdown)
 - [draw.io](https://www.drawio.com/) est un outil pratique, facile à utiliser. Il sera utilisé au cours
 ...
 
