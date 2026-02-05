@@ -19,7 +19,7 @@ La pratique est favorisée sur la théorie. Au cours, les étudiants sont amenez
 Je tiens à remercier Luc Bernard, professeur à l'ULB, dont j'ai suivi en 1995 comme élève libre le cours d'analyse qu'il donnait à l'antenne de Nivelles de l'ULB. J'ai adoré son cours et il m'a donné une longueur d'avance lorsque quelques années plus tard j'ai mis en pratique les concepts appris. Si mon cours ressemble à celui de Luc, c'est par la volonté de pragmatisme.
 
 #### Table des matières
-- [1 introduction](./1-introduction/introduction.md)
+- [1 introduction](1-introduction/introduction.md)
 - 2 processus métier
 - 3 backlog
     - 3.1 acteurs
