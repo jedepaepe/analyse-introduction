@@ -17,7 +17,7 @@ Ils utilisent des outils permettant de réaliser des diagrammes. Citons :
 - [lucichard](https://www.lucidchart.com/pages/fr)
 - [visio](https://www.microsoft.com/fr-be/microsoft-365/visio) est un mauvais outil mais il est utilisé dans beaucoup d'entreprises car c'est un produit Microsoft
 - [plantuml](https://plantuml.com/) est un outil utilisé par les développeurs car il est basé sur du code
-- [mermaid](https://mermaid.js.org/) aimé par les développeurs car il s'intègre dans du markdown (ce cours est écrit en markdown)
+- [mermaid](https://mermaid.js.org/) aimé par les développeurs car il s'intègre dans du markdown (ce cours est écrit en markdown). Certains outil IA génèrent des diagrammes mermaid.
 - [draw.io](https://www.drawio.com/) est un outil pratique, facile à utiliser. Il sera utilisé au cours
 ...
 
@@ -27,5 +27,16 @@ Les bons analystes utilisent des outils spécialisés pour réaliser les sketchs
 - [Sketch](https://www.sketch.com/) est outil pour mac.
 ...
 
-Notons que l'IA impacte le métier d'analyste. Elle permet de générer quantité de documentation et diagrammes. Elle peut aussi aider dans la collecte des informations.
+Notons que l'IA impacte le métier d'analyste. Idéalement, elle soutiendrait le travail de l'analyste de la collecte d'information à la rédaction du dossier d'analyse, effectuant le travail simple et répétif et laissant les parties hardues et la vérification à l'analyste.
 
+Il y a les outils qui permettent d'interroger les informations collectées 
+- NotebookLM de google
+- Glean
+
+Ensuite il y a les outils de génération de livrables, par exemple
+- [earser.io](https://www.eraser.io/)
+- [claude 3.5 Sonnet (avec Artifacts)](https://www.anthropic.com/news/claude-3-5-sonnet)
+
+Finalement, les générateurs de wireframes et maquettes :
+- [uizard](https://uizard.io/) génére une maquette
+- [vo.dev](https://v0.app/) de Vercel génère un prototype en React/Trailwind
