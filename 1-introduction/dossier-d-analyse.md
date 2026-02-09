@@ -5,37 +5,44 @@
 En développement logiciel, un dossier d'analyse est un dossier ou un document ou un site web qui documente l'application. Nous expliquons ici ce qu'est un dossier d'analyse et présentons différentes approches.
 
 ##### Table des matières
+- [Introduction](#introduction)
 - [Le pragmatique](#le-pragmatique)
 - [Le réduit agile](#le-r%C3%A9duit-agile)
 - [Le visuel](#le-visuel)
 - [L'académique](#lacad%C3%A9mique)
 - [La UX Design](#la-ux-design)
+- [Conclusiosn](#conclusions)
 - [Description des sections](#description-des-sections)
 
-Mentionnons quatre objectifs essentiels :
+## Introduction
+Cinq objectifs essentiels du dossier d'analyse sont :
 
 * **Délimiter le périmètre (le scope) de l'application** 
-C'est un accord entre le métier (les personnes qui vont bénéficier de l'application) et l'équipe de développement sur ce qui doit être fait.  
-Il est important de délimiter ce que fait une application et comment elle le fait pour éviter tout développement inutile, pour pouvoir les coûts et planifier les travaux.
+Il est important de délimiter ce que fait une application et comment elle le fait pour éviter tout développement inutile, pour pouvoir estimer le budget, planifier les travaux et contrôler leurs bons déroulements.
+Le scope fait aussi office d'accord entre le métier (les personnes qui vont bénéficier de l'application) et l'équipe de développement sur ce que doit être l'application. 
+
 
 * **Obtenir l'approbation des sponsors** 
-Les sponsors sont les personnes qui paient l'application, qui définissent la vision et garantissent l'adéquation entre l'application et la stratégie de l'application. Ils savent à quels besoins l'application répond et en connaissent la valeur (ce que l'application va rapporter à l'organisation).
+Les sponsors sont les personnes qui paient l'application, qui définissent la vision et garantissent l'adéquation entre l'application et la stratégie de l'organisation. Ils savent à quels besoins l'application répond et en connaissent la valeur (ce que l'application va rapporter à l'organisation).
 
 * **Documenter l'application pour les développeurs et les testeurs** 
-Les développeurs ont besoin de description pour savoir ce qu'ils doivent coder.
+Les développeurs ont besoin de descriptions pour savoir ce qu'ils doivent coder.
 
 * **Faciliter le démarrage des nouveaux venus** 
 Ils pourront consulter le dossier d'analyse pour comprendre l'application.
 
+* **Faciliter la communication**
+Le dossier d'analyse servira de support pour les communications entre les différentes partie prenante, facilitant la compréhension et la réflexion.
+
 > **Note : Approches agiles** 
-> De nos jours, beaucoup de projets sont réalisés sur base d'un dossier d'analyse très réduit, mais suffisant pour estimer un budget. Ensuite, les développements sont démarrés et l'analyse est réalisée de manière itérative, en quasi concomittance avec les développements. Cette approche privilégie la communication entre les parties prenantes du projet (stakeholder, principalement les sponsors, les représentants du métier et l'équipe de développement) sur la documentation écrite.
+> De nos jours, beaucoup de projets sont réalisés sur base d'un dossier d'analyse très réduit. Ensuite, les développements sont démarrés et l'analyse est réalisée de manière itérative, en quasi concomittance avec les développements. Cette approche privilégie la communication entre les parties prenantes du projet (stakeholder, principalement les sponsors, les représentants du métier et l'équipe de développement) sur la documentation écrite.
 
 ##### Quelques vérités :
 
 * Le dossier d'analyse n'est pas une œuvre d'art, c'est un outil de communication qui doit être rentable.
 * Le dossier d'analyse est terminé quand il répond au besoin pas quand il est totalement cohérent et complet.
 * Le dossier d'analyse n'est qu'un ensemble de information et de modèles de l'applications, il est toujours faux.
-* Le dossier d'analyse est toujours sujet à modification, car l'application est toujours sujette à modification.
+* Le dossier d'analyse est toujours sujet à modifications, car l'application est toujours sujette à modifications.
 * Un dossier d'analyse trop complet n'est pas utilisé.
 * Un dossier d'analyse trop simple est inutile.
 * La complexité nécessaire d'un dossier d'analyse dépend de la complexité de l'application et des profils des parties prenantes.
@@ -44,20 +51,14 @@ Ils pourront consulter le dossier d'analyse pour comprendre l'application.
 ##### Conseil pour les débutants
 
 * Faisons que ce que nous comprenons.
-* Donc utilisons uniquement les modèles que nous comprenons et que l'ensemble des parties prenantes comprennent.
+* Donc utilisons uniquement les modèles que nous comprenons
+* Ne montrons que les modèles que nos interlocuteurs comprennent.
 
-Dans le cours, nous verrons cinq approches différentes de dossiers d'analyse :
 
-* Le pragmatique
-* Le réduit agile
-* Le visuel
-* L'académique
-* L'UX design
-
-Voici une courte description de ces approches à titre d'introduction.
+Présentons maintenant succintement cinq modèles de dossier d'analyses.
 
 ---
-### Le pragmatique
+## Le pragmatique
 
 Le pragmatique est un dossier d'analyse basé sur la pratique telle que je l'ai observée en entreprise. Il est peu respectueux des approches académiques et il fait la part belle à la paresse : en faire le moins possible tout en obtenant un maximum de valeur. Il est aussi basé sur ma pratique de l'analyse dont les débuts datent de 1994 et sur mon expérience de ce cours que je donne depuis 2014.
 
@@ -68,13 +69,15 @@ Le pragmatique est un dossier d'analyse basé sur la pratique telle que je l'ai 
 1.  Backlog
     * Acteurs
     * User stories
+    * Acceptance criteria
     * Scénarios
     * Wireframes
     * Navigation
 1.  Contraintes techniques
 1.  Design de la DB
 1.  Design de l'application
-1.  Déploiement
+1.  Interfaces technique
+1.  Architecture
 1.  Vérification avec des données réalistes
 1.  Glossaire
 
@@ -85,33 +88,33 @@ C'est l'approche qui servira de colonne vertébrale au cours.
 * Pour une équipe experte souhaitant une approche légère adaptée aux applications de petite et moyenne taille.
 
 ---
-### Le réduit agile
+## Le réduit agile
 
-C'est un dossier réduit au minimum qie pour démarrer un développement itératif :
+C'est un dossier réduit au minimum. Le but est de limiter l'analyse au strict minimum et de démarrer les développements le plus rapidement :
 
 1.  Introduction
 2.  Processus métier
 3.  Analyse fonctionnelle (Acteurs, Backlog)
 4.  Contraintes
 5.  Design de l'application
-6.  Déploiement
+6.  Architecture
 7.  Glossaire
 
-Cette approche convient bien pour les équipes qui travaillent en agile. Elle permet de démarrer très rapidement les développements et d'avoir les premiers écrans fonctionnels en quelques semaines.
+Cette approche convient aux  équipes qui travaillent en agile. Elle permet de démarrer très rapidement les développements et d'avoir les premiers écrans fonctionnels en quelques semaines. Il s'agit de montrer le plus vite possible une application fonctionnelle (même si elle n'implémente qu'une seule fonction) afin d'obtenir rapidement le feedback des experts métier, utilisateurs et sponsor.
 
-Mais attention, car c'est contre-intuitif, seules des équipes expérimentées réussiront leurs projets avec une telle approche. Et ces même équipes seront souvent amenés à complèter le dossier en cas d'application complexe. En particulier, elles seront souvent amenées à ajouter me design DB.
+Mais attention, car c'est contre-intuitif, seules des équipes expérimentées réussiront leurs projets avec une telle approche. Et ces même équipes seront souvent amenés à complèter le dossier pour des applications complexes ou très nessitant des solutions techniques originales. Souvent, l'équipe sera amenées à ajouter me design DB.
 
-Notons que la plupart des organisations oublient les processus métier pourtant sans la compréhension de ses processus, un projet est un peu comme un bateau sans gouvernail.
+Notons que la plupart des organisations oublient les processus métier. Pourtant sans la compréhension de ses processus, un projet est un peu comme un bateau sans gouvernail.
 
 **Quand choisir "Le réduit agile" ?**
 * Pour une équipe expérimentée
-* Pour une équipe agile, en particulier, il faut un représentant du métier très disponible
+* Pour une équipe agile
 * Pour développer rapidement des écrans de l'application et en tirer un feedback
 
 ---
-### Le visuel
+## Le visuel
 
-Le visuel est une approche pragmatique basée sur la description de l'interface utilisateur. Elle est très ancienne appliqué par beaucoup d'organisation :
+Le visuel est une approche pragmatique basée sur la description de l'interface utilisateur. Elle est très ancienne et elle a été appliquée avec succès par beaucoup de petites stuctures :
 
 1. introduction
 2. processus métier
@@ -120,7 +123,7 @@ Le visuel est une approche pragmatique basée sur la description de l'interface 
 5. contraintes
 6. design de la DB
 7. design de l'application
-8. déploiement
+8. architecture
 9. glossaire
 
 Cette approche a l'avantage d'éviter un maximum les diagrammes abstraits qui peuvent présenter une difficulté pour certaines parties prenantes, en particulier les représentants du métier.
@@ -135,10 +138,12 @@ Notons que cette méthode est proche du concept de design first (conception prem
 * pour des parties prenantes ne supportant pas l'abstraction
 * pour des équipes débutantes
 
----
-### L'académique
+Si cette méthode est compatible avec un développement itératif, la description détaillée des wireframes est un travail conséquent qui prend du temps. Nous pouvons alors la simplifier et arrêter l'analyse des wireframes à une liste d'interfaces. Ceux-ci seront alors réalisés à la dernière minutes, juste avant le codage. Dans cette approche, la méthode le visuel ressemble fortement au réduit agile.
 
-L'académique est une approche très structurante mais complexe et en conséquence, elle est peu appliquée en entreprise.
+---
+## L'académique
+
+L'académique est une approche très structurante mais complexe. Des méthodes de ce type sont appliquées dans les grandes entreprises :
 
 1. introduction
 2. analyse métier
@@ -158,22 +163,23 @@ L'académique est une approche très structurante mais complexe et en conséquen
     2. contraintes
     3. design de la DB
     4. design de l'application
-    5. déploiement
+    5. interfaces techniques
+    5. architecture
 5. glossaire
 
 C'est une approche solide, très cohérente mais complexe et couteuse en temps.
 
 **Quand utiliser l'approche "L'académique" :**
-* pour les grands projets
-* pour des équipes bien formées aux différents concepts
+* les grands projets
+* des équipes bien formées aux différents concepts
 * à éviter pour les débutants
 * à éviter (ou adapter) pour les parties prenantes ne supportant pas l'abstraction
 * quand c'est imposé, ce qui est le cas dans beaucoup de grande organisation car ils considèrent que c'est un gage de qualité
 
 ---
-### La UX Design
+## La UX Design
 
-L'approche UX (User eXperience) Design est très orientée sur l'interface utilisateur. Elle est applicable pour les sites internets de type vitrine ou institutionnel. Cependant il est possible de l'augmenter des outils des autres méthodes et vis versa. Elle est particulièrement utile là où l'expérience de l'utilisateur est essentielle, par exemple pour le développement de sites e-commerce ou d'application pour smartphone.
+L'approche UX (User eXperience) Design est très orientée sur l'interface utilisateur. Elle est applicable pour les sites internet de type vitrine ou institutionnel. Elle est particulièrement utile là où l'expérience de l'utilisateur est essentielle, par exemple pour le développement de sites e-commerce ou d'application pour smartphone.
 
 1. sketchs
 2. wireframes
@@ -195,13 +201,28 @@ Notons que :
 
 * pour des applications de marques
 * pour des applications à faible complexité fonctionnelle
+* lorsque l'utilisateur est centrale et qu'on vit éviter qu'il ne rejette l'application
+* pour des applications self learning
 
 Il est important de noter que l'approche "UX Design" est différente de l'approche "Le visuel" :
 - UX Design est orienté design graphique et peu fonctionnel
 - Le visuel est orienté fonction et le design graphique est secondaire
 
 ---
-### Description des sections
+## Conclusions
+Nous avons vu différents modèle de dossier d'analyse, chacun ayant ses points forts :
+
+| modèle | forces | faiblesse |
+|-|-|-|
+| Le pragmatique | structure, légèreté | UX défaillante, applications complexes, feedback tardif |
+| Le réduit agile | légèreté, feedback rapide | UX défaillante, application complexe, nécessite des développeurs chevronés |
+| Le visuel | simple | applications complexes, feedback tardif |
+| L'académic | applications complexes, beaucoup d'interfaces | nécessite des développeurs chevronés, feedback très tard |
+| UX Design | marque, user acceptance | applications complexes |
+
+Bien entendu, nous pouvons piocher dans chaque modèle et changer les règles. Par exemple, nous pourrions réaliser un dossier académiques en ajoutant du UX Design et en procédant de manière itérative pour avoir du feedback plus rapidement.
+
+## Description des sections
 
 Voici une courte description des différentes sections. La plupart d'entre elles seront vues de manière détaillée par la suite.
 
