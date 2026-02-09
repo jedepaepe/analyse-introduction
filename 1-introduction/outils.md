@@ -25,7 +25,7 @@ Ils utilisent des outils spécialisés pour réaliser les sketchs, les wireframe
 - [Sketch](https://www.sketch.com/) est outil pour mac.
 ...
 
-Notons que l'IA impacte le métier d'analyste. Idéalement, elle soutiendrait le travail de l'analyste de la collecte d'information à la rédaction du dossier d'analyse, effectuant le travail simple et répétif et laissant les parties hardues et la vérification à l'analyste.
+Notons que l'IA impacte le métier d'analyste. Idéalement, elle soutiendrait le travail de l'analyste de la collecte d'information à la rédaction du dossier d'analyse, effectuant le travail simple et répétitif et laissant les parties ardues et la vérification à l'analyste.
 
 Il y a les outils qui permettent d'interroger les informations collectées 
 - NotebookLM de google
@@ -36,5 +36,5 @@ Ensuite il y a les outils de génération de livrables, par exemple
 - [claude 3.5 Sonnet (avec Artifacts)](https://www.anthropic.com/news/claude-3-5-sonnet)
 
 Finalement, les générateurs de wireframes et maquettes :
-- [uizard](https://uizard.io/) génére une maquette
+- [uizard](https://uizard.io/) génère une maquette
 - [vo.dev](https://v0.app/) de Vercel génère un prototype en React/Trailwind

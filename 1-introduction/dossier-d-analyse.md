@@ -11,7 +11,7 @@ En développement logiciel, un dossier d'analyse est un dossier ou un document o
 - [Le visuel](#le-visuel)
 - [L'académique](#lacad%C3%A9mique)
 - [La UX Design](#la-ux-design)
-- [Conclusiosn](#conclusions)
+- [Conclusions](#conclusions)
 - [Description des sections](#description-des-sections)
 
 ## Introduction
@@ -35,7 +35,7 @@ Ils pourront consulter le dossier d'analyse pour comprendre l'application.
 Le dossier d'analyse servira de support pour les communications entre les différentes partie prenante, facilitant la compréhension et la réflexion.
 
 > **Note : Approches agiles** 
-> De nos jours, beaucoup de projets sont réalisés sur base d'un dossier d'analyse très réduit. Ensuite, les développements sont démarrés et l'analyse est réalisée de manière itérative, en quasi concomittance avec les développements. Cette approche privilégie la communication entre les parties prenantes du projet (stakeholder, principalement les sponsors, les représentants du métier et l'équipe de développement) sur la documentation écrite.
+> De nos jours, beaucoup de projets sont réalisés sur base d'un dossier d'analyse très réduit. Ensuite, les développements sont démarrés et l'analyse est réalisée de manière itérative, en quasi concomitance avec les développements. Cette approche privilégie la communication entre les parties prenantes du projet (stakeholder, principalement les sponsors, les représentants du métier et l'équipe de développement) sur la documentation écrite.
 
 ##### Quelques vérités :
 
@@ -55,7 +55,7 @@ Le dossier d'analyse servira de support pour les communications entre les diffé
 * Ne montrons que les modèles que nos interlocuteurs comprennent.
 
 
-Présentons maintenant succintement cinq modèles de dossier d'analyses.
+Présentons maintenant succinctement cinq modèles de dossier d'analyses.
 
 ---
 ## Le pragmatique
@@ -102,7 +102,7 @@ C'est un dossier réduit au minimum. Le but est de limiter l'analyse au strict m
 
 Cette approche convient aux  équipes qui travaillent en agile. Elle permet de démarrer très rapidement les développements et d'avoir les premiers écrans fonctionnels en quelques semaines. Il s'agit de montrer le plus vite possible une application fonctionnelle (même si elle n'implémente qu'une seule fonction) afin d'obtenir rapidement le feedback des experts métier, utilisateurs et sponsor.
 
-Mais attention, car c'est contre-intuitif, seules des équipes expérimentées réussiront leurs projets avec une telle approche. Et ces même équipes seront souvent amenés à complèter le dossier pour des applications complexes ou très nessitant des solutions techniques originales. Souvent, l'équipe sera amenées à ajouter me design DB.
+Mais attention, car c'est contre-intuitif, seules des équipes expérimentées réussiront leurs projets avec une telle approche. Et ces même équipes seront souvent amenés à compléter le dossier pour des applications complexes ou très nécessitant des solutions techniques originales. Souvent, l'équipe sera amenées à ajouter me design DB.
 
 Notons que la plupart des organisations oublient les processus métier. Pourtant sans la compréhension de ses processus, un projet est un peu comme un bateau sans gouvernail.
 
@@ -114,7 +114,7 @@ Notons que la plupart des organisations oublient les processus métier. Pourtant
 ---
 ## Le visuel
 
-Le visuel est une approche pragmatique basée sur la description de l'interface utilisateur. Elle est très ancienne et elle a été appliquée avec succès par beaucoup de petites stuctures :
+Le visuel est une approche pragmatique basée sur la description de l'interface utilisateur. Elle est très ancienne et elle a été appliquée avec succès par beaucoup de petites structures :
 
 1. introduction
 2. processus métier
@@ -167,7 +167,7 @@ L'académique est une approche très structurante mais complexe. Des méthodes d
     5. architecture
 5. glossaire
 
-C'est une approche solide, très cohérente mais complexe et couteuse en temps.
+C'est une approche solide, très cohérente mais complexe et coûteuse en temps.
 
 **Quand utiliser l'approche "L'académique" :**
 * les grands projets
@@ -215,9 +215,9 @@ Nous avons vu différents modèle de dossier d'analyse, chacun ayant ses points 
 | modèle | forces | faiblesse |
 |-|-|-|
 | Le pragmatique | structure, légèreté | UX défaillante, applications complexes, feedback tardif |
-| Le réduit agile | légèreté, feedback rapide | UX défaillante, application complexe, nécessite des développeurs chevronés |
+| Le réduit agile | légèreté, feedback rapide | UX défaillante, application complexe, nécessite des développeurs chevronnés |
 | Le visuel | simple | applications complexes, feedback tardif |
-| L'académic | applications complexes, beaucoup d'interfaces | nécessite des développeurs chevronés, feedback très tard |
+| L'académique | applications complexes, beaucoup d'interfaces | nécessite des développeurs chevronnés, feedback très tard |
 | UX Design | marque, user acceptance | applications complexes |
 
 Bien entendu, nous pouvons piocher dans chaque modèle et changer les règles. Par exemple, nous pourrions réaliser un dossier académiques en ajoutant du UX Design et en procédant de manière itérative pour avoir du feedback plus rapidement.
@@ -231,7 +231,7 @@ Voici une courte description des différentes sections. La plupart d'entre elles
 * **processus** : des diagrammes d'activités commentés pour décrire les processus (s'il y en a), utilise le diagramme UML d'activité ou BPMN
 * **classes métier** : description des concepts métier (ex: client, facture, ...) et leur relations statiques, utilise le diagramme de classe métier
 * **analyse fonctionnelle** : analyse des fonctions de l'applique, ce que fait l'applique (=> le quoi)
-* **acteur** : un acteur est un utilisateur de l'application ou un système qui interragit avec l'application, on décrira ce qu'ils sont (en dehors de l'application) et leur rôle dans l'application
+* **acteur** : un acteur est un utilisateur de l'application ou un système qui interagit avec l'application, on décrira ce qu'ils sont (en dehors de l'application) et leur rôle dans l'application
 * **backlog** : liste de user stories à implémenter
 * **user story** : une user story décrit une fonctionnalité de l'application
 * **use case** : un use case décrit une fonctionnalité de l'application, utilise le diagramme de use cases
@@ -240,8 +240,8 @@ Voici une courte description des différentes sections. La plupart d'entre elles
 * **sketch** : dessin généralement à main levé d'une interface utilisateur (page, fenêtre, partie de page)
 * **wireframe** : dessin non animé dune page/fenêtre de l'application, en général en noir et blanc
 * **mockup ou maquette** : dessin animé d'une page/fenêtre de l'application précise au pixel prêt et colorée
-* **prototype** : version sans logique exepté la logique de navigation mais qui fournit les affichages avec des données réaliste 
-* **navigation** : enchainement des pages/fenêtres, généralement documenté par un sitemap
+* **prototype** : version sans logique excepté la logique de navigation mais qui fournit les affichages avec des données réaliste 
+* **navigation** : enchaînement des pages/fenêtres, généralement documenté par un sitemap
 * **database** : un diagramme ERD commenté
 * **contraintes** : quelques contraintes techniques (language, db, framework, performance, quantités de données, transactions, ...)
 * **design de l'application** : description de comment

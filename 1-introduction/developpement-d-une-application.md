@@ -15,10 +15,10 @@ Il existe deux méthodes de référence pour développer une application.
 
 ## Modèle waterfall
 Le modèle en cascade est un modèle très ancien, développé dans les années 1970.
-Il en existe différentes versions qui toutes respectent un même esprit. J'ai donc choisi celui de wikipedia qui est largement accepté :
+Il en existe différentes versions qui toutes respectent un même esprit. J'ai donc choisi celui de wikipédia qui est largement accepté :
 
 ![Modèle Waterfall](/assets/waterfall-model-wikipedia.png).
-Référence : [wikipedia](https://fr.wikipedia.org/wiki/Mod%C3%A8le_en_cascade).
+Référence : [wikipédia](https://fr.wikipedia.org/wiki/Mod%C3%A8le_en_cascade).
 
 Le modèle s'appelle waterfall car l'idée est celui de l'eau qui coule d'en haut pour tomber dans un premier bassin, puis dans un second, ... L'important dans cette métaphore, c'est que le second bassin ne commence à recevoir de l'eau que quand le premier est le premier est rempli.
 
@@ -52,7 +52,7 @@ D'abord, il faut **collecter les US**. Les US sont les user stories. Une user st
 
 Ensuite, l'équipe de développement va itérer les trois activités suivantes :
 1. **sélectionner quelques US**. Ces US seront traitées pendant l'itération.
-2. **analyser, designer, implémenter, tester** les US sélectionnée. Ces différentes actions sont effectuées plus ou moins séquenciellement.
+2. **analyser, designer, implémenter, tester** les US sélectionnée. Ces différentes actions sont effectuées plus ou moins séquentiellement.
 3. **montrer l'application**. En fin d'itération, l'équipe fait une démo de l'application centrée sur les US sélectionnées.
 
 Si l'application n'est pas "suffisantes", l'équipe commencera une nouvelle itération.

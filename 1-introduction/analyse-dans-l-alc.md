@@ -17,7 +17,7 @@ D'une manière générale, nous pouvons schématiser l'usage de l'analyse comme 
 | développement | F | il faut analyser chaque fonctionnalité et chaque solution technique |
 | mise en service | 0 | normalement tout a été analysé, c'est une pure exécution d'un plan |
 | maintenance | f | l'analyste est nécessaire pour aider les utilisateurs, pour certains bugs très métier et pour des changements |
-| démantellement | f | l'analyste est nécessaire s'il y a un projet de migration des données |
+| démantèlement | f | l'analyste est nécessaire s'il y a un projet de migration des données |
 
 (légende f:faible, m:moyenne, F:forte)
 
@@ -26,11 +26,11 @@ Le diagramme suivant illustre la même idée avec une sorte de % de l'activité 
 
 Les penseurs de la méthode RUP (Rational Unified Process) ont modélisé le type d'effort par itérations :
 ![RUP Iterative Process](/assets/rup-iterative-wikipedia.png)
-Ref : [wikipedia - Rational unified process](https://en.wikipedia.org/wiki/Rational_unified_process)
-Evidemment, RUP utilise d'autres noms mais on peut faire correspondre les différentes étapes de RUP avec mon modèle ALC :
+Ref : [wikipédia - Rational unified process](https://en.wikipedia.org/wiki/Rational_unified_process)
+Évidemment, RUP utilise d'autres noms mais on peut faire correspondre les différentes étapes de RUP avec mon modèle ALC :
 - inception : pendant la préparation, éventuellement début des développements
 - élaboration : fin de la préparation et début des développements
-- constrution : développer
+- construction : développer
 - transition : développer, valider, déployer, former, corriger les bugs
 
 Les différents types d'activités sont :

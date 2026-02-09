@@ -2,13 +2,13 @@
 
 # Cycle de vie d'une application
 
-Comme toute chose, une application nait, se développe, vit et meure. 
+Comme toute chose, une application naît, se développe, vit et meure. 
 
 #### Table des matières
 - [Modèle de référence](#modèle-de-référence)
 - [Autres modèles](#autres-modèles)
 - [Parties prenantes](#parties-prenantes)
-- [Cycle de vie d'une application dans la litérature](#cycle-de-vie-dune-application-dans-la-litérature)
+- [Cycle de vie d'une application dans la littérature](#cycle-de-vie-dune-application-dans-la-littérature)
 - [ALC et stakeholders](#alc-et-stakeholders)
 
 
@@ -43,9 +43,9 @@ Les différentes activités sont menées par des personnes de profils différent
 | faisabilité | expert métier, expert estimation de coût d'application | 1-2 semaines ou plus tout dépend si des études complexes sont entreprises pour évaluer le ROI |
 | préparation | chef de projet IT, analyste, expert métier | quelques jours à quelques mois, en fait très variables, suivant les situations |
 | développement | chef de projet IT, analyste, développeur, testeur, expert métier, architecte IT, scrum master, administrateur DB, ingénieur système, ingénieur devops, ... | 2 mois à 2 ans, fonction de la complexité de l'application |
-| mise en service | ingénieur system, devops | jour(s), en principe c'est rapide et cela a été testé précédemmment |
+| mise en service | ingénieur system, devops | jour(s), en principe c'est rapide et cela a été testé précédemment |
 | maintenance | cf "développement" mais plus besoin d'un chef de projet | certaines applications ont plus de 50 ans de maintenance |
-| démantellement | ingénieur système, administrateur DB | rapide sauf s'il faut récupérer les données |
+| démantèlement | ingénieur système, administrateur DB | rapide sauf s'il faut récupérer les données |
 
 
 ### Autres modèles
@@ -62,17 +62,17 @@ Si le [modèle de référence](#modèle-de-référence) est très courant, il ex
 
 Les stakeholders en anglais. Ce sont les personnes qui sont impliqués, ici dans le cycle de vie du logiciel.
 
-Notons que le but ici n'est pas d'être exhaustif mais de donner une image concrête.
+Notons que le but ici n'est pas d'être exhaustif mais de donner une image concrète.
 
 Les **sponsors** sont ceux qui paient et donnent la vision. Cela diffère d'une organisation à l'autre et d'un projet à l'autre mais on peut citer :
 - un **représentant du métier**, cela peut-être le directeur du département qui bénéficiera de l'application, par exemple le directeur des ressources humaines pour une application RH
 - un **représentant financier**, cela peut-être le CFO (Chief Financial Officier, le directeur financier)
-- un **représentant de l'IT**, cela peut-être le CIO (Chief Informatic Officier, le directeur de l'informatique en langage ancien)
+- un **représentant de l'IT**, cela peut-être le CIO (Chief Informatics Officier, le directeur de l'informatique en langage ancien)
 Les sponsors ont pour responsabilités de conduire le projet. Ce sont eux qui donne la vision, décide du budget et décide de continuer ou d'arrêter le projet.
 
 L'**expert métier** est un ... expert du métier concerné par l'application. Il sera l'interlocuteur privilégier pour comprendre les processus, les concepts du métier et les fonctionnalités de l'application. Notons que parfois, il est nécessaire de travailler avec plusieurs experts métiers, chacun spécialisé dans un métier différent ou une partie différente du métier.
 
-L'**expert évaluation des coûts** aidera à évaluer les coûts, en particulier pendant l'étude de faisabilité. Souvent, ce calcul est fait par un développeur sénior mais c'est réellement un spécialité et c'est très difficile.
+L'**expert évaluation des coûts** aidera à évaluer les coûts, en particulier pendant l'étude de faisabilité. Souvent, ce calcul est fait par un développeur senior mais c'est réellement un spécialité et c'est très difficile.
 
 Le **chef de projet** est responsable de la conduite au jour le jour du projet.
 
@@ -99,14 +99,14 @@ L'**architecte IT** est responsable de l'architecture de l'IT de l'entreprise. I
 ...
 
 
-### Cycle de vie d'une application dans la litérature
+### Cycle de vie d'une application dans la littérature
 Mon ALC (Application Live Cycle) est généralement appelé SDLC dans la littérature. Il existe de nombreux modèles et souvent le waterfall ou le modèle itératif sont considérés comme des SDLC. 
 
 ![illustration du SDLC](/assets/wikipedia-sdlc-simple.png)
-*Modèle de SDLC, ref: wikipedia Systems Development Life Cycle*
+*Modèle de SDLC, ref: wikipédia Systems Development Life Cycle*
 
 ![illustration du SDLC](/assets/wikipedia-sdlc-full.gif)
-*Modèle de SDLC, ref: wikipedia Systems Development Life Cycle*
+*Modèle de SDLC, ref: wikipédia Systems Development Life Cycle*
 
 Dans le cas de l'ALC, je prends un vision très globale, applicable finalement à presque tous les projets de développement logiciel ou pas. Nous pouvons faire le parallèle avec des vacances. Imaginez que vous souhaitez aller au sommet de l'Europe, l'Elbrouz à 5642 mètres d'altitude, vous allez :
 - avoir l'idée
@@ -115,12 +115,12 @@ Dans le cas de l'ALC, je prends un vision très globale, applicable finalement �
 - implémenter : enfin cela y est
 Bien entendu, nous n'avons pas l'équivalent de la mise en service et de la maintenance.
 
-Nous pouvons aussi appliquer ce processus à l'achat d'une voiture. Dans ce cas, la mise en service sera l'achat proprement dit et la maintenace, les entretients de la voiture. Par contre, l'implémentation sera courte : aller chez le revendeur et acheter.
+Nous pouvons aussi appliquer ce processus à l'achat d'une voiture. Dans ce cas, la mise en service sera l'achat proprement dit et la maintenance, les entretiens de la voiture. Par contre, l'implémentation sera courte : aller chez le revendeur et acheter.
 
 Il est inspiré par le framework de gestion de projet PRINCE 2 en ajoutant la maintenance.
 
 ![illustration de Prince 2](/assets/wikipedia-prince-2.jpg)
-*Framework prince 2, ref : [wikipedia prince 2](https://fr.wikipedia.org/wiki/PRINCE2)*
+*Framework prince 2, ref : [wikipédia prince 2](https://fr.wikipedia.org/wiki/PRINCE2)*
 
 Voici la correspondance
 | prince 2 | ALC |
