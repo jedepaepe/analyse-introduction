@@ -186,7 +186,15 @@ Le data analyst est spécialisé dans l'analyse de données. Il sera impliqué d
 Il sera aussi impliqué s'il s'agit d'une application avec analyse de données, par exemple une application de reporting (qui fait des rapports, souvent pour aider la direction à prendre des décisions), ou s'il s'agit d'une application avec du deep learning (par exemple, prédiction de panne).
 
 ## Résumé
-Voici un résumé des différens rôles telles que je perçois en Belgique car cela peut changer de pays en pays :
+Résumons d'abord les trois niveaux de l'analyse d'une application :
+
+| analyse | focus | question | explication |
+|-|-|-|-|
+| business | métier | pourquoi | décrit le pourquoi l'application, sa valeur ajoutée, les besoins et processus métiers |
+| functional | application | quoi | décrit ce que fait l'application |
+| technical/design | application | comment | décrit la solution (technique), comment l'application fait le quoi |
+
+Résumons les différens rôles telles que je perçois en Belgique car cela peut changer de pays en pays :
 
 | profil | focus principal | livrables | outils/compétences | Interlocuteurs |
 |---|---|---|---|---|
@@ -197,4 +205,16 @@ Voici un résumé des différens rôles telles que je perçois en Belgique car c
 | architect IT | solutions techniques, cohérence IT | architecure, roadmap | TOGAF, diagramme d'architecture | direction IT, développeurs, analystes |
 | UX/UI Designer | expérience utilisateur | personna, parcours utilisateur | sketch, wireframe, maquette, prototype | utilisateurs, métier, développeurs |
 | data analyst | données | rapports, tableaux de bord | SQL, Power BI, Python, data platforms | managers métier |
+
+## Spécial focus
+Je souhaite faire ici un focus spécial sur les données réelles. Je crois n'avoir jamais vu un analyste relever les données réelles. Pourtant, elles valent de l'or car elles permettent de valider. 
+- L'analyste pourra vérifier son analyse avec des données réelles.
+- Le développeur pourra tester le code avec des données réelles.
+- Le testeur pourra tester l'application avec des données réelles.
+
+Le diagramme ci-dessous illustre l'idée :
+![processus valorisant les données réelles](/assets/real-data-value-process.jpg)
+Avertissement : ce diagramme n'est qu'une illustration. En pratique, les actions exécutées en parallèle et souvent répétées.
+
+L'analyste utilisera aussi la collecte des données réelles pour amener l'expert métier ou l'utilisateur à détailler **les cas particuliers**, ces cas où les données ne sont pas standards et qui sont souvent la cause de bugs en production car ils passent à travers les mailles du filet.
 
