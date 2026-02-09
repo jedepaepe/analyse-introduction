@@ -15,6 +15,3 @@ Il est donc essentiel de bien comprendre le cycle de vie d'une application pour 
 1. [analyser](./analyser.md)
 1. [dossier d'analyse](./dossier-d-analyse.md)
 1. [outils](./outils)
-
-
-

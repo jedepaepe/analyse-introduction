@@ -50,9 +50,11 @@ Les différentes activités sont menées par des personnes de profils différent
 ### Autres modèles
 
 Si le [modèle de référence](#modèle-de-référence) est très courant, il existe bien d'autres manières de gérer le cycle de vie d'une application, par exemples :
-- **développement phasé** : l'application est développée en plusieurs étapes avec une mise en services pour chaque étape
-- **MVP** : développement d'un MVP (Minimum Valuable Product) qui est mis en service suivi du développement du reste de l'application. C'est en fait un développement phasé en deux étapes avec un attention portée sur la valeur que l'application apporte au métier
-- **déploiement continu** : un MVP est développé et mis en service et chaque fonctionnalité complémentaire ou bug est déployé dès qu'il est développé et validé
+- **modèle en V** est proche du waterfall, il met l'accent sur la décomposition et les tests de chaque composant
+- **modèle en Y** est proche du waterfall, il met l'accent sur le fait que l'analyse technique peut être faite presque indépendamment de l'analyse fonctionnelle
+- **développement phasé** : consiste à délivrer en production plusieurs versions de l'application, afin de tirer au plus vite de la valeur. Nous pouvons phasé le modèle waterfall et le modèle itératif. 
+- **MVP** : développement d'un MVP (Minimum Valuable Product) qui est mis en service suivi du développement du reste de l'application. C'est en fait un développement phasé en deux étapes avec un attention portée sur la valeur que l'application apporte au métier.
+- **déploiement continu** : dans le cas extrême, nous développons une fonctionnalité et nous la mettons directement en service. Ensuite, nous mettons de nouvelles fonctionnalités en service dès qu'elles sont terminées. En général, le déploiement continu n'est appliqué qu'après avoir livré un MVP.
 
 
 ### Parties prenantes
@@ -97,5 +99,37 @@ L'**architecte IT** est responsable de l'architecture de l'IT de l'entreprise. I
 
 
 ### Cycle de vie d'une application dans la litérature
-TODO
+Mon ALC (Application Live Cycle) est généralement appelé SDLC dans la littérature. Il existe de nombreux modèles et souvent le waterfall ou le modèle itératif sont considérés comme des SDLC. 
+
+![illustration du SDLC](/assets/wikipedia-sdlc-simple.png)
+*Modèle de SDLC, ref: wikipedia Systems Development Life Cycle*
+
+![illustration du SDLC](/assets/wikipedia-sdlc-full.gif)
+*Modèle de SDLC, ref: wikipedia Systems Development Life Cycle*
+
+Dans le cas de l'ALC, je prends un vision très globale, applicable finalement à presque tous les projets de développement logiciel ou pas. Nous pouvons faire le parallèle avec des vacances. Imaginez que vous souhaitez aller au sommet de l'Europe, l'Elbrouz à 5642 mètres d'altitude, vous allez :
+- avoir l'idée
+- vérifier la faisabilité : ai-je assez d'argent, le temps, cela en vaut-il la peine pour cet argent (ROI)
+- préparer : sans doute devrais-je faire un peu de sport (formation), je vais planifier, réserver, demander un guide (équipe)
+- implémenter : enfin cela y est
+Bien entendu, nous n'avons pas l'équivalent de la mise en service et de la maintenance.
+
+Nous pouvons aussi appliquer ce processus à l'achat d'une voiture. Dans ce cas, la mise en service sera l'achat proprement dit et la maintenace, les entretients de la voiture. Par contre, l'implémentation sera courte : aller chez le revendeur et acheter.
+
+Il est inspiré par le framework de gestion de projet PRINCE 2 en ajoutant la maintenance.
+
+![illustration de Prince 2](/assets/wikipedia-prince-2.jpg)
+*Framework prince 2, ref : [wikipedia prince 2](https://fr.wikipedia.org/wiki/PRINCE2)*
+
+Voici la correspondance
+| prince 2 | ALC |
+|-|-|
+| commande du projet | idée |
+| SU | étudier de faisabilité |
+| IP | préparer |
+| Exécution | Développer & Metre en service |
+| Clôturer | - |
+| - | Maintenir |
+
+Il est normal que la maintenance ne fasse pas partie de PRINCE 2 car c'est une méthode de gestion de projet. Par contre, on peut mentionner qu'en général, le projet fera un transfert vers les opérations (et donc la maintenance) typiquement pendant l'étape de clôture.
 

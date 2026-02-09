@@ -11,13 +11,14 @@ En pratique, on fait de l'analyse à toutes les étapes de l'ALC (Application Li
 D'une manière générale, nous pouvons schématiser l'usage de l'analyse comme suit
 
 | activité | intensité | description |
---------------------------------------
+|----------|-----------|-------------|
 | faisabilité | f | pour vérifier la faisabilité, nous devons évaluer le budget du projet et donc nous devons avoir une idée des fonctionnalités et de l'architecture de l'application |
 | préparation | m | il faut avoir une évaluation plus précise et donc mieux définir l'application tant fonctionnellement que techniquement |
 | développement | F | il faut analyser chaque fonctionnalité et chaque solution technique |
 | mise en service | 0 | normalement tout a été analysé, c'est une pure exécution d'un plan |
 | maintenance | f | l'analyste est nécessaire pour aider les utilisateurs, pour certains bugs très métier et pour des changements |
 | démantellement | f | l'analyste est nécessaire s'il y a un projet de migration des données |
+
 (légende f:faible, m:moyenne, F:forte)
 
 TODO : cette section est trop complexe et risque d'apporter de la confusion, il faut la remplacer par un diagramme simple
