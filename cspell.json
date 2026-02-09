@@ -13,5 +13,5 @@
             "addWords": true
         }
     ],
-    "ignorePaths": ["assets", "project-words.txt"]
+    "ignorePaths": ["assets", "node_modules", "project-words.txt", "remerciements.md", "sources"]
 }
