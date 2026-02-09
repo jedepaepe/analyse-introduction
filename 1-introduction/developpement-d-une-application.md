@@ -1,4 +1,4 @@
-[top](/README.md) / [1-Introduction](./introduction.md) --- précédent [cycle de vie d'une application](./cycle-de-vie-d-une-application.md) --- suivant [analyser](./analyser.md)
+[top](/README.md) / [1-Introduction](./introduction.md)
 
 # Développement d'une application
 
