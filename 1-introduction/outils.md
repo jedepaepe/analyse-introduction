@@ -2,9 +2,7 @@
 
 # Les outils
 
-Les analystes utilisent différents outils.
-
-Ils utilisent des outils de bureautique :
+Les analystes utilisent des outils de bureautique :
 - word (ou libreoffice) pour créer des documents, souvent le dossier d'analyse est réalisé sous word
 - excel (ou libreoffice) pour analyser des données
 - powerpoint (ou ...) pour réaliser des présentations
@@ -21,7 +19,7 @@ Ils utilisent des outils permettant de réaliser des diagrammes. Citons :
 - [draw.io](https://www.drawio.com/) est un outil pratique, facile à utiliser. Il sera utilisé au cours
 ...
 
-Les bons analystes utilisent des outils spécialisés pour réaliser les sketchs, les wireframes et les maquettes :
+Ils utilisent des outils spécialisés pour réaliser les sketchs, les wireframes et les maquettes :
 - [Figma](https://www.figma.com/fr-fr/) domine le marché.
 - [Penpot](https://penpot.app/) est un challenger open-source.
 - [Sketch](https://www.sketch.com/) est outil pour mac.
