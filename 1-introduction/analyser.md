@@ -5,10 +5,22 @@ Nous essayons d'expliquer ce qu'est qu'analyser dans le contexte du développeme
 
 #### Table des matières
 - [Travail de l'analyste](#travail-de-lanalyste)
-- [Collecte d'information](#collecte-dinformation)
-- [Produits de l'analyse](#produits-de-lanalyse)
-- [Les outils](#les-outils)
+- [Collecter l'information](#collecter-linformation)
+- [Etudier l'information](#etudier-linformation)
+- [Créer des modèles](#créer-des-modèles)
+- [Maintenir l'analyse](#maintenir)
 - [Le développeur et l'analyse](#le-développeur-et-lanalyse)
+- [Les différents analystes](#les-différents-analystes)
+    - [Business analyst](#business-analyst)
+    - [Functional analyst](#functional-analyst)
+    - [Technical analyst](#technical-analyst)
+    - [Product owner](#product-owner)
+    - [UX/UI Designer](#uxui-designer)
+    - [Data analyst](#data-analyst)
+    - [Résumé](#résumé)
+- [Données réelles](#données-réelles)
+
+
 
 ## Travail de l'analyste
 Le travail de l'analyste consiste à analyser les besoins métier en vue du développement d'une application ou de sa maintenance.
@@ -39,7 +51,7 @@ La communication est centrale dans sa pratique. Il communique avec toutes les pa
 - ...
 
 
-## Collecte d'information
+## Collecter l'information
 La première tâche d'un analyste consiste à collecter de l'information.
 
 Il a plusieurs techniques pour collecter de l'information :
@@ -121,7 +133,7 @@ Notons les responsabilités typiques d'un business analyst :
 - rédiger des cahier des charges
 - collaborer avec l'IT
 
-### Fonctional analyst
+### Functional analyst
 L'analyste fonctionnelle se concentre sur les fonctions de l'application.
 C'est typiquement l'analyste fonctionnel qui rédige le dossier d'analyse.
 Traditionnellement, l'analyste fonctionnel créait des use cases et des use case diagrams.
@@ -167,25 +179,25 @@ Il choisira le moteur de base de données et souvent il documentera sa structure
 *Diagramme ERD pour un achat. Ref: [wikipedia entity data model](https://en.wikipedia.org/wiki/Entity_Framework#Entity_Data_Model). Notez que ce diagramme est inhabituel car il illustre le fait qu'une commande ne peut contenir qu'un seul produit.*
 
 
-## Product owner
+### Product owner
 Le product owner est un rôle que nous trouvons dans les frameworks agiles. Dans le framework SCRUM par exemple, le product owner est responsable du product backlog qui est une liste d'éléments (item) qui décrivent l'application. Souvent les user stories sont utilisées pour les éléments fonctionnels du product backlog. Le production owner prend donc les responsabilités de l'analyste, c'est-à-dire collecter l'information, le besoin, le structurer, l'analyser, le documenter et communiquer.
 
 Notons qu'en SCRUM, il n'y a en principe pas d'analyste. Il y a un product owner, une équipe principalement composée de dévéloppeurs et un SCRUM master à temps partiel. L'équipe est considérée comme un tout et doit avoir les compétences nécessaires pour réaliser le produit, c'est-à-dire l'application dans notre contexte.
 
 En pratique, les organisations appliquent un SCRUM personnalisé (customized) parfois à l'extrême et nous trouverons beaucoup d'équipes SCRUM n'ayant pas de product owner et ayant un analyste. La question du jour : "peut-on les appeler équipes SCRUM :-)" ?
 
-## UX/UI Designer
+### UX/UI Designer
 L'expert User eXperience (UX) et User Interface (UI) intervient dans les projets à fort impact sur les utilisateurs. Il s'agit généralement d'applications et de sites web où l'image de l'organisation est très importante ou d'applications pour lesquels on prévoit un gros risques de rejet par les utilisateurs ou d'applications complexes mais qui doivent être self learning (sans manuel utilisateur).
 
 Il est responsable de la définition de l'interface utilisateur et produit principalement des sketchs (croquis, esquisses), wireframes, maquettes et des prototypes.
 
 
-## Data analyst
+### Data analyst
 TBC (To Be Confirmed)
 Le data analyst est spécialisé dans l'analyse de données. Il sera impliqué dans l'analyse si l'application a une sorte composante données, typiquement les rapports.
 Il sera aussi impliqué s'il s'agit d'une application avec analyse de données, par exemple une application de reporting (qui fait des rapports, souvent pour aider la direction à prendre des décisions), ou s'il s'agit d'une application avec du deep learning (par exemple, prédiction de panne).
 
-## Résumé
+### Résumé
 Résumons d'abord les trois niveaux de l'analyse d'une application :
 
 | analyse | focus | question | explication |
@@ -206,8 +218,8 @@ Résumons les différens rôles telles que je perçois en Belgique car cela peut
 | UX/UI Designer | expérience utilisateur | personna, parcours utilisateur | sketch, wireframe, maquette, prototype | utilisateurs, métier, développeurs |
 | data analyst | données | rapports, tableaux de bord | SQL, Power BI, Python, data platforms | managers métier |
 
-## Spécial focus
-Je souhaite faire ici un focus spécial sur les données réelles. Je crois n'avoir jamais vu un analyste relever les données réelles. Pourtant, elles valent de l'or car elles permettent de valider. 
+## Données réelles
+Je souhaite faire ici un focus sur les données réelles. Je crois n'avoir jamais vu un analyste relever les données réelles. Pourtant, elles valent de l'or car elles permettent de valider. 
 - L'analyste pourra vérifier son analyse avec des données réelles.
 - Le développeur pourra tester le code avec des données réelles.
 - Le testeur pourra tester l'application avec des données réelles.
