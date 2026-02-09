@@ -133,3 +133,11 @@ Voici la correspondance
 
 Il est normal que la maintenance ne fasse pas partie de PRINCE 2 car c'est une méthode de gestion de projet. Par contre, on peut mentionner qu'en général, le projet fera un transfert vers les opérations (et donc la maintenance) typiquement pendant l'étape de clôture.
 
+## ALC et stakeholders
+Voici notre ALC surchargé par les parties prenantes et des délivrables typiques à chaque activité :
+![ALC avec parties prenantes et livrables](/assets/application-development-process-stakeholders-delivrables.jpg)
+
+Les parties prenantes sont en jaune et les livrables en magenta clair.
+PO : Product Owner est responsable de l'application.
+PM : Product Manager est responsable du développement de l'application.
+Avertissement, le PO et le PM n'ont pas du tout le même rôle et le choix de travailler avec un PM ou PO est essentiellement une question de méthodologie.
