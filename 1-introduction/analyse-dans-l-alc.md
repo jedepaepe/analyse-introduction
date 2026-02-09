@@ -21,15 +21,17 @@ D'une manière générale, nous pouvons schématiser l'usage de l'analyse comme 
 
 (légende f:faible, m:moyenne, F:forte)
 
-TODO : cette section est trop complexe et risque d'apporter de la confusion, il faut la remplacer par un diagramme simple
-Dans la méthode RUP (Rational Unified Process), l'effor d'analyse est représenté comme suit :
+Le diagramme suivant illustre la même idée avec une sorte de % de l'activité d'analyse, avec une approche un peu particulière puisque le 100% est atteint à la fin du développement.
+![analyse dans l'ALC](/assets/analysis-alc-percent.png)
+
+Les penseurs de la méthode RUP (Rational Unified Process) ont modélisé le type d'effort par itérations :
 ![RUP Iterative Process](/assets/rup-iterative-wikipedia.png)
 Ref : [wikipedia - Rational unified process](https://en.wikipedia.org/wiki/Rational_unified_process)
 Evidemment, RUP utilise d'autres noms mais on peut faire correspondre les différentes étapes de RUP avec mon modèle ALC :
 - inception : pendant la préparation, éventuellement début des développements
 - élaboration : fin de la préparation et début des développements
 - constrution : développer
-- transition : TODO
+- transition : développer, valider, déployer, former, corriger les bugs
 
 Les différents types d'activités sont :
 - business modeling : décrire le métier, elle documente les processus métier, les concepts métier

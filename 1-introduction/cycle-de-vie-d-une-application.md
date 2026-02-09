@@ -1,4 +1,4 @@
-[top](/README.md) / [1-Introduction](./introduction.md)
+[1-Introduction](./introduction.md)
 
 # Cycle de vie d'une application
 
@@ -9,6 +9,7 @@ Comme toute chose, une application nait, se développe, vit et meure.
 - [Autres modèles](#autres-modèles)
 - [Parties prenantes](#parties-prenantes)
 - [Cycle de vie d'une application dans la litérature](#cycle-de-vie-dune-application-dans-la-litérature)
+- [ALC et stakeholders](#alc-et-stakeholders)
 
 
 ### Modèle de référence
