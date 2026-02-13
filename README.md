@@ -19,8 +19,8 @@ La pratique est favorisée sur la théorie. Au cours, les étudiants sont amenez
 
 #### Table des matières
 - [1 introduction](1-introduction/introduction.md)
-- 2 processus métier
-- 3 backlog
+- [2 processus métier](2-processus-metier/readme.md)
+- 3 [backlog](3-backlog)
     - 3.1 acteurs
     - 3.2 user stories
     - 3.3 scénarios
