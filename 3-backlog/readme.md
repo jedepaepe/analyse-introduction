@@ -1,15 +1,23 @@
 [top](/README.md)
 # Backlog
 
-Dans ce chapitre, nous commencerons par présenter les concepts de base, les acteurs et les récits utilisateurs. Nous verrons deux approches des user stories, l'originale et l'approche de la SCRUM alliance. Ensuite, nous aborderons les techniques pour trouver les user stories.
+Dans ce chapitre, nous abordons l'analyse du point de vue de l'approche agile, plus particulière du framework SCRUM.
+Nous commencerons par présenter les concepts de base, les acteurs et les récits utilisateurs. Nous verrons deux approches des user stories, l'originale et l'approche de la SCRUM alliance. Ensuite, nous aborderons les techniques pour trouver les user stories.
 
 #### Table de matières
+- [Agile](#agile)
 - [Acteurs](#acteurs)
     - [Exemples](#exemples-dacteurs)
         - [Demande de congés](#demande-de-congés)
         - [Gestion des stages](#gestion-des-stages)
     - [Acteurs et personas](#acteurs-et-personas)
 - [User stories](#user-stories)
+
+## Agile
+L'approche agile est née dans les années 1990...
+
+## SCRUM
+SCRUM est le framework agile le plus courant, bien plus courant que eXtreme programming ou le DSMD. Son succès est tel qu'il est maintenant utilisé dans bien des domaines qui n'ont rien à voir avec le développement de logiciels.
 
 ## Acteurs
 Les acteurs sont les personnes et les machines, ordinateurs ou électroniques, qui interragisent avec l'application.
