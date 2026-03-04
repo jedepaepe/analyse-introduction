@@ -3,7 +3,7 @@
 ## Préambule
 Cette introduction à l'analyse est le support d'un cours d'analyse informatique donné aux élèves de première année en bachelier en informatique, orientation développement d'application. 
 
-Il est adapté au dossier pédagogique du cours et aux programmes des élèves qui en première année étudient beaucoup les bases de données et la programmation structuré.
+Il est adapté au dossier pédagogique du cours et aux programmes des élèves qui en première année étudient beaucoup les bases de données et la programmation structurée.
 
 Il est à souligner que les étudiants pratiquent la programmation orientée objet qu'en deuxième année, raison pour laquelle les diagrammes de classes d'implémentation ne sont pas pratiquement pas abordés.
 
@@ -20,18 +20,13 @@ La pratique est favorisée sur la théorie. Au cours, les étudiants sont amenez
 #### Table des matières
 - [1 introduction](1-introduction/introduction.md)
 - [2 processus métier](2-processus-metier/readme.md)
-- 3 [backlog](3-backlog)
-    - 3.1 acteurs
-    - 3.2 user stories
-    - 3.3 scénarios
-    - 3.4 wireframes
-    - 3.5 navigation
+- 3 [use cases](3-use-cases/readme.md)
 - 4 contraintes
 - 5 design de la DB
 - 6 design de l'application
 - 7 déploiement
 - 8 vérification avec des données réalistes
-- 9 use cases
+- 9 [approches agiles](a-approches-agiles/readme.md)
 - 10 classes métier
 - 11 classes entité
 - 12 classes d'implémentation
