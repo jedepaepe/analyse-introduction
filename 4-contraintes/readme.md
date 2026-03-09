@@ -86,6 +86,14 @@ Voici un petit schéma récapitulatif SQL / NoSQ :
 
 Notons l'existance du NewSQL qui allie les avantages du SQL (fiabilité) et du NoSQL (mise à l'échelle).
 
+Pour terminer, notons quelques questions à se poser pour le choix SQL ou NoSQL :
+- les entités sont-elles stables ou, dit autrement, sommes-nous sur un métier bien maîtrisé ou en pleine évolution ? Plus les entités sont stables, plus SQL est intéressant
+- peut-on faire de la cohérence éventuelle (eventually consistent), c'est-à-dire que si vous modifiez les données via un update, un create ou un delete, il n'est pas nécessairement répercuté partout de suite ? Si oui, nous pourrons utiliser les DB NoSQL. Il s'agit ici de choisir entre une DB qui respecte les principes [ACID](https://fr.wikipedia.org/wiki/Propri%C3%A9t%C3%A9s_ACID) ou une DB qui suit les principes [BASE](https://pasksoftware.com/acid-vs-base/#What_Is_BASE).
+- grands volumes : des DB NoSQL prévues pour les grands volumes auront l'avantage
+- besoin de performance d'interrogation ? les DB NoSQL pourront être avantagées
+- besoin de documents qui ne peuvent pas être modifiés, par exemple facture ? Les DB NoSQL de type document offre une solution simple à ce problème. Notons que les DB SQL offre maintenant des tables qui permettent de stocker facilement des documents
+- distribution mondiale de la base de données : SQL ne peut pas fournir une réplication de données sur le monde entier sans une dégradation des performances catastrophique (notons que le NewSQL apporte des réponses à ce problème)
+
 ## Performances
 L'application devra répondre à des contraintes de performance, typiquement :
 - temps de réponse
