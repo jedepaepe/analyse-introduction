@@ -12,6 +12,9 @@ afin de la préciser.
 Les contraintes sont décidées par les organisations propriétaires de l'organisation.
 Elles sont généralement un équilibre entre les spécificités de l'application et la cohérence de l'IT de l'organisation.
 
+Dans les petites organisations, les contraintes seront posées par l'équipe IT ou un prestataire extérieur.
+Dans les grandes organisations, ces contraintes seront souvent l'oeuvre des architectes IT et des responsables de la sécurité.
+
 La suite de ce châpitre liste quelques contraintes qui sont classiquement mise en oeuvre.
 
 ## Infrastructure
@@ -92,7 +95,11 @@ Pour terminer, notons quelques questions à se poser pour le choix SQL ou NoSQL 
 - grands volumes : des DB NoSQL prévues pour les grands volumes auront l'avantage
 - besoin de performance d'interrogation ? les DB NoSQL pourront être avantagées
 - besoin de documents qui ne peuvent pas être modifiés, par exemple facture ? Les DB NoSQL de type document offre une solution simple à ce problème. Notons que les DB SQL offre maintenant des tables qui permettent de stocker facilement des documents
-- distribution mondiale de la base de données : SQL ne peut pas fournir une réplication de données sur le monde entier sans une dégradation des performances catastrophique (notons que le NewSQL apporte des réponses à ce problème)
+- distribution mondiale de la base de données : SQL ne peut pas fournir une réplication de données sur le monde entier sans une dégradation des performances catastrophique (notons que le NewSQL apporte des réponses à ce problème).
+
+## Données
+Nous poserons les contraintes légales sur les données : le RGPD.
+Ensuite nous imposerons, mais c'est plutôt une évidence, l'intégrité et la confidentialité des données.
 
 ## Performances
 L'application devra répondre à des contraintes de performance, typiquement :
@@ -108,6 +115,13 @@ Des contraintes de robustesse pourront être imposées à l'application, par exe
 
 ## Sécurité
 L'application devra répondre aux contraintes de sécurité, voir OWASP.
+
+## Authentification
+Les applications d'organisation nécessitent presque toujours une authentification.
+En général, l'organisation aura un système d'authentication, comme l'Active Directory, Microsoft Entra ID, JumpCloud, Okta, Samba, FreeIPA, OpenLDAP, ... et l'imposera.
+
+Rarement, une application gèrera l'authentification elle même. 
+La solution de bases consiste à stocker les utilisateurs et leurs mots de passe criptés dans une base données.
 
 ## Internationnalisation
 L'internationnalisation a deux aspects :
