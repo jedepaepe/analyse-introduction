@@ -1,0 +1,189 @@
+[top](/README.md)
+# Contraintes
+
+## Introduction
+Si les use cases permettent de définir les fonctionnalités de l'application,
+ils ne précisent rien quant à la solution technique 
+or de nombreuses solutions techniques sont possibles.
+
+Une première étape consiste à lister des contraintes sur les solutions techniques
+afin de la préciser.
+
+Les contraintes sont décidées par les organisations propriétaires de l'organisation.
+Elles sont généralement un équilibre entre les spécificités de l'application et la cohérence de l'IT de l'organisation.
+
+La suite de ce châpitre liste quelques contraintes qui sont classiquement mise en oeuvre.
+
+## Infrastructure
+L'entreprise devra choisir sur quelle infrastructure sera déployée l'application. Les choix actuels sont en résumé :
+- machines physiques : l'applic
+- machines virtuelles
+- containers docker
+- serverless
+
+## Le système d'exploitation
+L'entreprise utilisera-t-elle Linux, Windows, Unix ou Mac. 
+Ensuite viennent les OS spécialisés pour les systèmes embarqués et temps réels.
+Si nous limitons la réflexion sur les applications de gestion, ce sera Linux ou Windows.
+L'entreprise choisira en général en fonction de ses compétences du parc d'ordinateurs existants.
+Cependant, depuis l'arrivée de docker, Linux prend de plus en plus d'importance.
+L'entreprise peut aussi choisir des services cloud de haut niveau comme de l'hébergement d'application web, de docker ou serverless, dans quel cas, c'est le fournisseur cloud qui décide de l'OS.
+
+## Langage
+Les organisations imposent généralement le langage de programmation sur base des compétences de l'organisation.
+Ainsi si l'organisation a une équipe de développement java, elle développera de manière préférentielle en java.
+Bien entendu, l'application peut avoir des spécificités qui peuvent moduler cette contrainte,
+car chaque langage de programmation a ses niches. Voici quelques indications dans ce sens :
+- java est très utilisés pour les applications de gestion d'organisations (entreprises, grande asbl, ministères, ...), et aussi pour les applications androïd; 
+- c# est le concurrent Microsoft de java, il est utilisé pour les même raison et est préféré par les organisations qui choisissent la technologie microsoft; il est aussi utilisé dans les jeux vidéos grace au moteur Unity;
+- python est très utilisés pour la data science et l'IA car il possède d'excellentes librairies dans ces domaines (Pandas, TensorFlow, Scikit-Learn);
+- c++ pour les jeux vidéos, les systèmes d'exploitations, les systèmes embarqués et les applications à haute performance (finance temps réel) car il est très performant;
+- rust prend des parts de c++ car il présente l'avantage d'avoir une gestion de la mémoire automatique;
+- javascript est utilisé dans quasiment toutes les applications web car il est le seul langage exécuté par le browser (à l'exception de web assembly); il est utilisé par de petites entreprises mais aussi par des géants du net surtout dans des environnements cloud
+- typescript
+- php pour des applications web, principalement simples (même si le PHP moderne permet de bien structuré des applications complexes) et étendre les principaux CMS (Content Management System, comme WordPress, Drupal, ...);
+- swift pour le développement d'applications pour iOS (pour iPhone et iPad), macOS (ordinateurs apple), watchOS (montre), tvOS, FreeBSD et Ubuntu;
+- kotlin pour la programmation Androïd;
+- go pour la programmation profitant de la puissance du cloud;
+
+## Low code
+L'organisation peut aussi de choisir de développer l'application sur une plateforme low code...
+
+## Database
+L'organisation imposera souvent le système de gestion de base de données.
+
+Nous divisons les SGBD en deux groupes :
+- SQL : les DB Simple Query Langage;
+- NoSQL : les DB Not Only SQL.
+
+Les DB SQL sont divisées en deux groupes :
+- les DB server, comme Oracle, SQL Server, Sybase, Posgresql, mariadb, mysql, ...
+- les DB embarqués (ou in-process), comme sqlite, dukeDB
+
+Le monde NoSQL est très varié car il existe de nombreux types de DB NoSQL chacune ayant ses avantages et inconvénients.
+
+Si dans la décénie 2010, NoSQL a fait le buz, SQL reste le leader des SGBD, grâce à la garantie ACID.
+Le défaut de SQL est qu'il est difficile scalable, à cause justement de l'ACID.
+
+NoSQL est utilisé pour régler des problèmes particuliers, par exemple :
+- le temps réel et le cache : redis
+- les documents : MongoDB
+- le big data : Cassandra et Elisticsearch
+
+Le cloud offre des DB "as a service", par exemple :
+- DynamoDB de AWS qui une DB clé/valeur
+- Cosmos DB de Azure ...
+- Firebase de Google ...
+
+Voici un petit schéma récapitulatif SQL / NoSQ :
+| critère | choix |
+|-|-|
+| popularité | SQL car ancien, standard et beaucoup de compétences disponibles |
+| flexibilité | NoSQL car le schéma est plus libre |
+| prototypage | NoSQL pour la même raison |
+| fiabilité des données | SQL grâce à ACID |
+| mise à l'échelle massive | NoSQL car permet l'architecture distribuée |
+
+Notons l'existance du NewSQL qui allie les avantages du SQL (fiabilité) et du NoSQL (mise à l'échelle).
+
+## Performances
+L'application devra répondre à des contraintes de performance, typiquement :
+- temps de réponse
+- quantité de transactions traitées
+- quantité de données stockées
+
+## Robustesse
+Des contraintes de robustesse pourront être imposées à l'application, par exemple :
+- disponibilité généralement exprimée en % (par exemple 99,5% correspond à environ 4h de non disponibilité par an);
+- résistance aux pannes hardware
+- capacité à redéployer l'application
+
+## Sécurité
+L'application devra répondre aux contraintes de sécurité, voir OWASP.
+
+## Internationnalisation
+L'internationnalisation a deux aspects :
+- les langues supportées par l'application
+- les localisations où l'application fonctionne
+
+La gestion des langues se fait au sein de l'application de manière assez simple et via des librairies existantes.
+
+La localisation par contre est un problème de déploiement qui peut impacter l'application, en particulier pour la cohérence des données.
+Imaginons une organisation qui a des filiales partout dans le monde, Afrique, Amériques, Asie, Europe et Océanies (et pourquoi Antartique) et que l'application doit être disponible partout... 
+
+## Utilisabilité
+Les organisations tenteront de définir la qualité de la UX (User eXperience),
+cependant ce n'est pas un sujet simple.
+
+Nous parlerons de "self learning application", c'est-à-dire d'applications qu'on apprend en les utilisant.
+
+Nous parlerons aussi des normes pour personnes anticapées.
+
+## Charte graphique
+La plupart des organisations ont une charte graphique qui sera très probablement imposée à l'application.
+
+## Testabilité
+L'organisation peut imposer que l'application soit testable ou mieux, 
+imposer que des tests unitaires soient écrits.
+Nous parlons alors de couverture du code par les tests en %.
+L'organisation peut aussi imposer que des tests utilisateur soit écrits. 
+
+## Maintenabilité
+L'organisation peut imposer que l'application soit maintenable.
+Le problème consiste à définir de manière objective ce qu'est une application maintenable.
+
+## Modularité
+L'organisation peut imposer que l'application soit modulaire.
+Ici encore, le problème consiste à définir les critères objectifs.
+
+## Compatibilité
+L'organisation peut imposer que l'application soit ???
+
+## Qualité
+L'organisation peut imposer que l'application soit d'une certaine qualité.
+Il est possible pour cela de faire vérifier l'application par des analyseurs statiques ou dynamiques.
+Le plus connu est sans doute Sonar.
+
+## Style Guides
+L'organisation peut imposer des conventions de codage,
+c'est-à-dire des règles pour nommer les variables, les classes, ... 
+organiser les codes, ...
+
+Souvent, les grands acteurs de l'informatique fournissent des conventions.
+L'entreprise aura tout intérêt à les reprendre et éventuellement à les adapter légèrement.
+Voici quelques exemples :
+- [Apache Java, shell script, Python and database naming conventions](https://cwiki.apache.org/confluence/display/CLOUDSTACK/Coding+conventions);
+- [Oracle Java Naming Convention](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html);
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+
+Il en existe pour tous les langages.
+
+## Déploiements
+L'organisation peut imposer des méthodes de déploiements :
+- manuelle (souvent une copie d'un zip à travers le réseau et quelques configurations)
+- automatisée (un script effectue le déploiement)
+- pipeline (le déploiement est automatisé avec des outils qui effectuent différentes étapes)
+
+La dernière méthode est très à la mode
+car elle permet d'augmenter la qualité.
+Elle est donc quasiment incontournable pour la livraison continue (continous delivery).
+
+Le problème d'un déploiement manuel est qu'il repose entièrement sur la compétence des informaticiens qui le pratique :
+- l'application a-t-elle bien été construite (build : compilation, linkage, packaging) ?
+- l'application est-elle de la qualité demandée ?
+- l'application est-elle sécurisée (pas de failles de sécurités) ?
+- l'application respecte-t-elle les critères de qualité, le "style guideline" ?
+- l'application a-t-elle bien été testée ?
+- y-a-t'il des régressions ?
+- déploie-t-on ce qu'on croit ?
+- la version (release) déployée est-elle bien documentée (release notes) ?
+- le déploiement a-t-il été testé (en déployant sur des machines de tests) ?
+- y-a-t'il un plan de rollback (retour à la version précédente) ?
+- le rollback a-t-il été testé ?
+- le package déployé est-il sauvé quelque part, disponible ?
+
+Lorsqu'on fait un déploiement manuel, toutes ces opérations doivent être faite ... manuellement.
+C'est un travail considérable 
+et en conséquence, l'application ne sera pas déployée tous les jours, mais plutôt tous les 3 mois.
+
+Avec les pipelines, toutes les opérations mentionnées ci-avant peuvent être automatisées.

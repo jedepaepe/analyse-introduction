@@ -1,5 +1,5 @@
 [top](/README.md)
-# Backlog
+# Méthodes Agiles
 
 Dans ce chapitre, nous abordons l'analyse du point de vue de l'approche agile, plus particulière du framework SCRUM.
 Nous commencerons par présenter les concepts de base, les acteurs et les récits utilisateurs. Nous verrons deux approches des user stories, l'originale et l'approche de la SCRUM alliance. Ensuite, nous aborderons les techniques pour trouver les user stories.
