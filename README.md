@@ -21,7 +21,7 @@ La pratique est favorisée sur la théorie. Au cours, les étudiants sont amenez
 - [1 introduction](1-introduction/introduction.md)
 - [2 processus métier](2-processus-metier/readme.md)
 - [3 use cases](3-use-cases/readme.md)
-- 4 contraintes
+- [4 contraintes](4-contraintes/readme.md)
 - 5 design de la DB
 - 6 design de l'application
 - 7 déploiement
