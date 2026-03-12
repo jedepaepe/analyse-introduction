@@ -1,13 +1,46 @@
 [top](/README.md)
 # Contraintes
 
+#### Table des matières
+- [Contraintes](#contraintes)
+      - [Table des matières](#table-des-matières)
+  - [Introduction](#introduction)
+  - [Infrastructure](#infrastructure)
+  - [Système d'exploitation](#système-dexploitation)
+  - [Langage](#langage)
+  - [Low code](#low-code)
+  - [Database](#database)
+  - [Interopérabilité](#interopérabilité)
+  - [Données](#données)
+  - [Performances](#performances)
+  - [Robustesse](#robustesse)
+  - [Sécurité](#sécurité)
+  - [Authentification](#authentification)
+  - [Internationnalisation](#internationnalisation)
+  - [Utilisabilité](#utilisabilité)
+  - [Charte graphique](#charte-graphique)
+  - [Testabilité](#testabilité)
+  - [Maintenabilité](#maintenabilité)
+  - [Modularité](#modularité)
+  - [Portabilité](#portabilité)
+  - [Indépendance](#indépendance)
+  - [Qualité](#qualité)
+  - [Style Guides](#style-guides)
+  - [Déploiements](#déploiements)
+
 ## Introduction
 Si les use cases permettent de définir les fonctionnalités de l'application,
 ils ne précisent rien quant à la solution technique 
-or de nombreuses solutions techniques sont possibles.
+or de nombreuses solutions techniques pour un set de fonctionnalités données.
 
 Une première étape consiste à lister des contraintes sur les solutions techniques
-afin de la préciser.
+afin limiter les solutions possibles.
+
+> Définition CONTRAINTE
+> Dans notre contexte, 
+> une contrainte est une condition non négociable qui limite le choix de conception.
+
+Notez que nous pouvons aussi lister des préférences, mais c'est plus rare.
 
 Les contraintes sont décidées par les organisations propriétaires de l'organisation.
 Elles sont généralement un équilibre entre les spécificités de l'application et la cohérence de l'IT de l'organisation.
@@ -24,7 +57,7 @@ L'entreprise devra choisir sur quelle infrastructure sera déployée l'applicati
 - containers docker
 - serverless
 
-## Le système d'exploitation
+## Système d'exploitation
 L'entreprise utilisera-t-elle Linux, Windows, Unix ou Mac. 
 Ensuite viennent les OS spécialisés pour les systèmes embarqués et temps réels.
 Si nous limitons la réflexion sur les applications de gestion, ce sera Linux ou Windows.
@@ -97,9 +130,30 @@ Pour terminer, notons quelques questions à se poser pour le choix SQL ou NoSQL 
 - besoin de documents qui ne peuvent pas être modifiés, par exemple facture ? Les DB NoSQL de type document offre une solution simple à ce problème. Notons que les DB SQL offre maintenant des tables qui permettent de stocker facilement des documents
 - distribution mondiale de la base de données : SQL ne peut pas fournir une réplication de données sur le monde entier sans une dégradation des performances catastrophique (notons que le NewSQL apporte des réponses à ce problème).
 
+## Interopérabilité
+Si une application interface une autre application ou des composants électroniques,
+il faudra décrire l'interface et les échanges d'un point de vue technique.
+
+On renverra souvent aux documentations de ces applications ou composants électroniques.
+S'il n'y en a pas, il faudra documenter pour compléter le dossier d'analyse.
+
+Cela peut être fait dans les contraintes,
+puisque nous avons la contrainte d'utiliser telle application ou tel composant électronique.
+
+Parfois, le projet comprendra la modification de l'application en question.
+Dans ce cas, il sera préférable de prévoir un chapitre de l'analyse technique
+à l'interface avec cette application
+et un sous projet pour la modification de cette application.
+
+Parfois, les composants électroniques font partie du projet.
+Dans ce cas, il faudra prévoir un chapitre consacré à la description de ces composants
+et de leur interface avec l'application.
+
 ## Données
-Nous poserons les contraintes légales sur les données : le RGPD.
+Les données sont aujourd'hui sujettes à des contraintes légales : en Europe, le RGPD; au Etats-Unis le CCPA.
+Il faudra aussi prêter attention aux droits d'auteurs.
 Ensuite nous imposerons, mais c'est plutôt une évidence, l'intégrité et la confidentialité des données.
+Nous pouvons aussi exiger que les données soient stocker dans un pays ou une région.
 
 ## Performances
 L'application devra répondre à des contraintes de performance, typiquement :
@@ -139,7 +193,7 @@ cependant ce n'est pas un sujet simple.
 
 Nous parlerons de "self learning application", c'est-à-dire d'applications qu'on apprend en les utilisant.
 
-Nous parlerons aussi des normes pour personnes anticapées.
+Il existe aussi des standards d'accessibilité WCAG/RGAA ou la norme [ISO 25002](https://www.iso.org/fr/standard/78175.html).
 
 ## Charte graphique
 La plupart des organisations ont une charte graphique qui sera très probablement imposée à l'application.
@@ -158,8 +212,38 @@ Le problème consiste à définir de manière objective ce qu'est une applicatio
 L'organisation peut imposer que l'application soit modulaire.
 Ici encore, le problème consiste à définir les critères objectifs.
 
-## Compatibilité
-L'organisation peut imposer que l'application soit ???
+## Portabilité
+L'organisation peut imposer que l'application soit portable, 
+c'est-à-dire qu'elle est facilement déployable dans d'autres environnements.
+Les environnements sont le hardware, donc le type de processeur, les services cloud,
+les OS, les DB, les systèmes d'authentification, ...
+L'idée est de rendre l'application indépendante de ces environnement.
+Mon expérience personnelle est que chaque fois 
+que j'ai vu cette contrainte appliquée,
+cela a conduit à une augmentation des coûts des développements et la complexité de l'application
+sans apporter de valeur ajoutée.
+En en effet, cela n'a servi à rien
+car soit l'application n'a jamais été portée sur quoique soit d'autre,
+soit l'effort pour préparer le portabilité était insuffisant
+et il a quand même fallu réécrire.
+
+Bref, si la portabilité peut être un enjeu dans certains cas,
+il faut être prudent quant à son implémentation
+et mon opinion est qu'un code de qualité et simple est un code plus facile à porter
+qu'un code préparé à la portabilité.
+
+Notons que la portabilité peut être une contrainte inhérente au business model.
+Par exemple, un éditeur de logiciel souhaitra souvent 
+que ses applications fonctionnent sur le plus d'environnements possibles.  
+
+## Indépendance
+Il est souvent demandé au logiciel d'être le plus indépendant possible des librairies qu'ils utilisent.
+L'idée est de pouvoir facilement changer de librairie.
+La technique utilisée est l'écriture de wrapper, du code qui encapsule la librairie.
+Ainsi l'application dépend du wrapper et pas directement de la librairie.
+Si on veut changer la librairie, il faut seulement modifier le wrapper.
+Si cette approche peut fonctionner, elle est exigente et complifie le code.
+Il faut donc des développeurs de haut niveau.
 
 ## Qualité
 L'organisation peut imposer que l'application soit d'une certaine qualité.

@@ -7,6 +7,7 @@
   - [Introduction](#introduction)
   - [Acteurs](#acteurs)
   - [Use cases](#use-cases-1)
+    - [Bon use cases](#bon-use-cases)
   - [Scénarios](#scénarios)
   - [Wireframes](#wireframes)
   - [Données réelles](#données-réelles)
