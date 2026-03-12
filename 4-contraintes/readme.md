@@ -76,7 +76,8 @@ car chaque langage de programmation a ses niches. Voici quelques indications dan
 - c++ pour les jeux vidéos, les systèmes d'exploitations, les systèmes embarqués et les applications à haute performance (finance temps réel) car il est très performant;
 - rust prend des parts de c++ car il présente l'avantage d'avoir une gestion de la mémoire automatique;
 - javascript est utilisé dans quasiment toutes les applications web car il est le seul langage exécuté par le browser (à l'exception de web assembly); il est utilisé par de petites entreprises mais aussi par des géants du net surtout dans des environnements cloud
-- typescript
+- c est toujours utilisé principalement pour des systèmes embarqués et des OS, par exemple Linux est programmé en c. C'est seulement récemment que rust est aussi utilisé.
+- typescript est une "alternative" au javascript, il permet d'augmenter la qualité. En pratique, le typescript est transpilé en javascript car les browsers ne savent pas interpréter le typescript.
 - php pour des applications web, principalement simples (même si le PHP moderne permet de bien structuré des applications complexes) et étendre les principaux CMS (Content Management System, comme WordPress, Drupal, ...);
 - swift pour le développement d'applications pour iOS (pour iPhone et iPad), macOS (ordinateurs apple), watchOS (montre), tvOS, FreeBSD et Ubuntu;
 - kotlin pour la programmation Androïd;
@@ -168,7 +169,19 @@ Des contraintes de robustesse pourront être imposées à l'application, par exe
 - capacité à redéployer l'application
 
 ## Sécurité
-L'application devra répondre aux contraintes de sécurité, voir OWASP.
+L'application devra répondre aux contraintes de sécurité. 
+
+Pour les applications web, les contraintes sont au minimum :
+- HTTPS partout, TLS 1.3 obligatoire
+- Utiliser les requêtes préparées pour éviter le SQL Injection
+- Pas de secret (mot de passe, cléf d'accès) dans le code source
+- Utiliser des librairies à jour
+- Chiffrement des données sensibles de la DB
+- Validation stricte côté serveur (type, longueur, format)
+- Echappement en sortie : encoder les données avant l'affichage dans le navigateur pour prévenir le XSS (Cross-Site Scrypting)
+
+Vérifier votre application par rapport au [top 10 de l'OWASP](https://owasp.org/Top10/2025/).
+
 
 ## Authentification
 Les applications d'organisation nécessitent presque toujours une authentification.
