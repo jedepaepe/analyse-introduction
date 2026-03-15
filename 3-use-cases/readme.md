@@ -90,8 +90,7 @@ Les scénarios décrivent le déroulement d'un use case lorsqu'il est instancié
 
 Notons qu'un use case peut avoir plusieurs scénarios. Nous parlerons souvent de scénario principal ou happy flow, c'est-à-dire le scénario attendu, celui qui apporte de la valeur et des scénarios particuliers ou d'erreurs.
 
-Dans la suite, je présente un modèle pour les scénarios de use cases. Il a l'avantage de guider les débutants et le désavantage d'être un peu contraignant.
-
+Le document [gabarit de scénarios](./gabarit-scenario.md) propose un gabarit pour documenter les use cases à l'aide de scénarios.
 
 ## Wireframes
 Les wireframes sont une représentation graphique de l'interface utilisateur qui précise les composants graphiques principaux et nécessaires au fonctionnement de l'application sans trop se préoccuper de la présentation. Ce n'est donc pas une image exacte de l'interface utilisateur, d'ailleurs ils sont souvent fait en noir et blanc.
