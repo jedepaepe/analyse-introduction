@@ -258,6 +258,35 @@ Si on veut changer la librairie, il faut seulement modifier le wrapper.
 Si cette approche peut fonctionner, elle est exigente et complifie le code.
 Il faut donc des développeurs de haut niveau.
 
+## Design
+Nous pouvons ajouter des contraintes sur le design de l'application.
+
+Nous pouvons imposer le type d'application :
+- application web
+- application desktop
+- application embarquée
+
+Dans les applications web nous aurons le choix entre :
+- server side rendering
+- client side rendering
+
+Cela passe par l'utilisation de framework comme :
+- [spring boot](https://spring.io/projects/spring-boot) pour une application web en java
+- [qt](https://www.qt.io/) pour une application c++ portable
+- [django](https://www.djangoproject.com/) pour une application web en python
+- [express](https://expressjs.com/) pour une application web en javascript
+- [laravel](https://laravel.com/) pour une application web en PHP
+
+Nous pouvons imposer le design général du code :
+- [Monolith](https://fr.wikipedia.org/wiki/Application_monolithe)
+- [Architecture en couches](https://fr.wikipedia.org/wiki/Architecture_en_couches)
+- [Architecture distribuée](https://fr.wikipedia.org/wiki/Architecture_distribu%C3%A9e)
+- [Microservices](https://fr.wikipedia.org/wiki/Microservices)
+- [MVC (Model View Controler)](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur)
+- [MVVM (Model-View-View-Model)](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-vue_mod%C3%A8le)
+- [clean architecture ou hexagonale](https://fr.wikipedia.org/wiki/Architecture_hexagonale)
+- [CQS (Command-Query Separation)](https://fr.wikipedia.org/wiki/S%C3%A9paration_commande-requ%C3%AAte)
+
 ## Qualité
 L'organisation peut imposer que l'application soit d'une certaine qualité.
 Il est possible pour cela de faire vérifier l'application par des analyseurs statiques ou dynamiques.
