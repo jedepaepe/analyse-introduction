@@ -24,12 +24,12 @@ La pratique est favorisée sur la théorie. Au cours, les étudiants sont amenez
 - [4 contraintes](4-contraintes/readme.md)
 - [5 design de la DB](5-design-db/readme.md)
 - [6 design de l'application](6-design-application/readme.md)
-- 7 déploiement
-- 8 vérification avec des données réalistes
-- 9 [approches agiles](9-approches-agiles/readme.md)
-- 10 classes métier
-- 11 classes entité
-- 12 classes d'implémentation
+- [7 déploiement](7-deploiement/readme.md)
+- [8 vérification avec des données réalistes](8-verification/readme.md)
+- [9 approches agiles](9-approches-agiles/readme.md)
+- [10 classes métier](a-classes-metier/readme.md)
+- [11 classes entitées](b-classes-entitees/readme.md)
+- [12 classes d'implémentation](c-classes-implementation/readme.md)
 - 13 approche UX design
 - 14 autres approches
 
