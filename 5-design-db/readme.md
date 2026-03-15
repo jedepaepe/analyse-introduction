@@ -9,4 +9,3 @@ Voir :
 - [exemple de la gestion des interventions](https://jedepaepe.github.io/analyse-introduction-legacy/E04-station-intervention/index.html#section-technical)
 - [exemple de la gestion des formations](https://jedepaepe.github.io/analyse-introduction-legacy/E05-gestion-formations/index.html#section-technical)
 - [exemple du jeu d'échec](https://jedepaepe.github.io/analyse-introduction-legacy/E06-echecs/index.html#section-technical-database)
-
