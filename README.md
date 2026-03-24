@@ -32,6 +32,7 @@ La pratique est favorisée sur la théorie. Au cours, les étudiants sont amenez
 - [12 classes d'implémentation](c-classes-implementation/readme.md)
 - 13 approche UX design
 - 14 autres approches
+- [z exemples](z-exemples/readme.md)
 
 ### Crédits
 - Certains diagrammes sont créés avec la version community edition de Visual Paradigm (Non-Commercial Use). Merci à Visual Paradigm pour la mise à disposition d'une version gratuite.
