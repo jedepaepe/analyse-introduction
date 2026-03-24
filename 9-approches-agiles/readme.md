@@ -16,7 +16,7 @@ Nous commencerons par présenter les concepts de base, les acteurs et les récit
     - [Acteurs et personas](#acteurs-et-personas)
   - [User stories](#user-stories)
     - [L'approche originelle](#lapproche-originelle)
-    - [L'approche courante](#lapproche-courante)
+    - [L'approche connextra](#lapproche-connextra)
     - [Documentation](#documentation)
   - [Backlog](#backlog-1)
 
@@ -151,7 +151,10 @@ Pour en savoir plus, lisons l'article de [Ron Jeffries : Essential XP: Card, Con
 
 La confirmation peut consister en des scénarios de tests avec des données ou en un wireframe avec une description.
 
-### L'approche courante
+L'approche était radicale et l'objectif était de minimiser la quantité de documentation écrite car elle est considérée comme une perte de temps. Les US sont ainsi principalement des invitations à une discution orale qui est considéré comme le vecteur le plus efficace pour communiquer de l'information. D'où l'idée d'utiliser des cartes de petites tailles (index cards). S'il n'y a pas assez de place sur la carte, c'est que la US est trop complexe et 
+en conséquence, il faut la décomposer en plus petites US. 
+
+### L'approche connextra
 L'approche originelle est trop radicale pour beaucoup d'entreprise et aujourd'hui, les user stories sont généralement documentées en détail.
 
 La [Scrum Alliance](https://resources.scrumalliance.org/Article/anatomy-user-story) propose un template pour les récits utilisateurs :
@@ -173,6 +176,35 @@ Voici quelques exemples pour la demande de congés :
 - En tant que manager, je veux vérifier que mon service ne sera pas impacter par la prise de congé d'un de mes subalterne ainsi j'assure la qualité de mon service.
 - En tant que manager, je veux pouvoir accepter une demande de congé ainsi le travailleur sera informé.
 - En tant que manager, je veux pouvoir refuser une demande de congé ainsi la demande pourra être traitée par le RH.
+
+### Autres approches
+Citons encode quelques approches :
+- JTBD (Job Stories)
+- FDD (Feature Development Driven)
+- Story Mapping
+- BDD/Gherkin 
+
+#### JTDB
+Les job stories se concentrent sur les situations. L'idée est que le rôle n'est pas si important et que la situation peut tout changer.
+
+Les user stories sont alors détaillées comme suit :
+Quand [Situation], je veux [Action] pour pouvoir [Résultat attendu].
+
+Par exemple :
+Lorsque ma connection est instable, je veux pouvoir sauvegarder mon travail hors-ligne pour ne pas perdre mes données.
+
+#### FDD
+Feature Driven Development se concentre sur les fonctionnalités.
+
+Les user stories seront alors détaillées comme suit :
+[Action] le [Résultat] [de/pour/à] un [Objet].
+
+Par exemple :
+Calculer le montant total de la facture.
+
+#### Story Mapping
+Jeff Paton a mis au point une méthode graphique, le user journey ou le parcours utilisateur.
+L'idée est de documenter les étapes chronologiques que l'utilisateur suit. 
 
 ### Documentation
 Les récits utilisateurs sont documentés, soit de manière
