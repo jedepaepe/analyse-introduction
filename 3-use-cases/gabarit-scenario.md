@@ -13,7 +13,10 @@ Le use case est documenté par :
    2. les postconditions
 6. règles métiers
 
-Les préconditions sont les conditions nécessaires pour que le use case puisse être "joué". Un exemple typique est "l'acteur doit être authentifié".
+Les préconditions sont les conditions nécessaires pour que le use case puisse être "joué". Un exemple typique est "l'acteur doit être authentifié". Les caractéristiques clés d'une précondition sont :
+- stabilité : si une précondition n'est pas satisfaite, le cas d'utilisation ne peut pas être joué : il ne sera pas possible de le démarrer, l'application l'interdira;
+- hors périmètre : le scénario ne décrit pas comment la précondition est devenue vrai, il admet qu'elle l'est
+- vérifiabilité : l'application doit être capable de vérifier ces préconditions.
 
 Les étapes du scénario décrivent ce que les acteurs font et ce que l'application fait, séquentiellement. Par exemple :
 - l'acteur complète le formulaire en précisant son prénom, son nom de famille, son email et sa question 
